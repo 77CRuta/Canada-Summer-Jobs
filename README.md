@@ -1,11 +1,12 @@
 # Canada Summer Jobs (CSJ) 2024 — Findings Summary
 
-Key Takeaways
-Calgary is the most cost-efficient of the four cities — $3,803 per job, well below the national average
-Vancouver is the least cost-efficient — $5,291 per job, 28% above the national average
-Edmonton and Calgary both beat the national average, with Calgary edging ahead
-Toronto falls in the middle, slightly above the national average
-The national spread ranges from ~$2,898 to ~$6,646 — a $3,748 gap between most and least efficient constituencies
+### Key Takeaways
+1. **Calgary is the most cost-efficient** of the four cities — $3,803 per job, well below the national average
+2. **Vancouver is the least cost-efficient** — $5,291 per job, 28% above the national average
+3. **Edmonton and Calgary** both beat the national average, with Calgary edging ahead
+4. **Toronto** falls in the middle, slightly above the national average
+5. The **national spread** ranges from ~$2,898 to ~$6,646 — a **$3,748 gap** between most and least efficient constituencies
+
 ## Dataset Overview
 
 | Metric | Value |
@@ -106,14 +107,6 @@ Each dot represents a single constituency. The vertical position shows its cost 
 | Toronto | 3 | $2,915,847 | 638 | **$4,570.29** |
 | Vancouver | 8 | $5,979,087 | 1,130 | **$5,291.23** 🔴 |
 | *National Avg* | *338* | *$293,372,944* | *71,204* | *$4,120.18* |
-
-### Key Takeaways
-
-1. **Calgary is the most cost-efficient** of the four cities — $3,803 per job, well below the national average
-2. **Vancouver is the least cost-efficient** — $5,291 per job, 28% above the national average
-3. **Edmonton and Calgary** both beat the national average, with Calgary edging ahead
-4. **Toronto** falls in the middle, slightly above the national average
-5. The **national spread** ranges from ~$2,898 to ~$6,646 — a **$3,748 gap** between most and least efficient constituencies
 
 ---
 
