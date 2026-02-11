@@ -1,5 +1,11 @@
 # Canada Summer Jobs (CSJ) 2024 — Findings Summary
 
+Key Takeaways
+Calgary is the most cost-efficient of the four cities — $3,803 per job, well below the national average
+Vancouver is the least cost-efficient — $5,291 per job, 28% above the national average
+Edmonton and Calgary both beat the national average, with Calgary edging ahead
+Toronto falls in the middle, slightly above the national average
+The national spread ranges from ~$2,898 to ~$6,646 — a $3,748 gap between most and least efficient constituencies
 ## Dataset Overview
 
 | Metric | Value |
@@ -8,16 +14,6 @@
 | **Total Amount Paid** | $293,372,944 |
 | **Total Jobs Created** | 71,204 |
 | **National Avg Cost Per Job** | $4,120.18 |
-
----
-
-## All Constituencies — Cost Per Job Heatmap
-
-The heatmap below shows the cost per job for every constituency in Canada. Green tiles represent the most cost-efficient constituencies, while blue tiles represent the least cost-efficient.
-
-![All Constituencies Heatmap](plots/constituency_heatmap.png)
-
----
 
 ## Top 10 Most & Least Expensive Constituencies
 
@@ -90,9 +86,7 @@ A direct comparison of the two largest Alberta cities across total funding, jobs
 | **Min / Max CPJ** | $3,283 — $4,915 |
 
 > 📊 **Takeaway:** Calgary spent more overall ($10.3M vs $8.8M) and created more jobs (2,711 vs 2,239), but at a **lower cost per job** ($3,803 vs $3,933) — about $130 cheaper per job.
-
 ---
-
 ## City Scatterplot — Calgary vs Vancouver vs Edmonton
 
 Each dot represents a single constituency. The vertical position shows its cost per job, making it easy to spot patterns and outliers within each city.
