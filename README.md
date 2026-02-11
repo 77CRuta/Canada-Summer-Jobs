@@ -11,49 +11,55 @@
 
 ---
 
-## Distribution of Cost Per Job
+## All Constituencies — Cost Per Job Heatmap
 
-The histogram below shows how cost per job is distributed across all 338 constituencies. The curve overlay (KDE) shows the overall density shape.
+The heatmap below shows the cost per job for every constituency in Canada. Green tiles represent the most cost-efficient constituencies, while blue tiles represent the least cost-efficient.
 
-![Distribution of Cost Per Job](plots/distribution_histogram.png)
+![All Constituencies Heatmap](plots/constituency_heatmap.png)
 
 ---
 
 ## Top 10 Most & Least Expensive Constituencies
 
-The side-by-side comparison below highlights the **least cost-efficient** (left, red) and **most cost-efficient** (right, green) constituencies by cost per job.
+### Side-by-Side Comparison
 
-![Top 10 vs Bottom 10 Cost Per Job](plots/top_bottom_10.png)
+The side-by-side chart below highlights the **least cost-efficient** (left, red) and **most cost-efficient** (right, green) constituencies by cost per job.
+
+![Top 10 vs Bottom 10 Side-by-Side](plots/fig4.png)
 
 ### Least Cost-Efficient (Highest Cost Per Job)
 
-| Rank | Constituency | Amount Paid | Jobs Created | Cost Per Job |
-|------|-------------|-------------|--------------|-------------|
-| 1 | Oakville-Nord - Burlington | $1,076,698 | 162 | **$6,646.28** |
-| 2 | Notre-Dame-de-Grâce - Westmount | $1,108,905 | 183 | **$6,060.14** |
-| 3 | LaSalle - Émard - Verdun | $1,105,106 | 183 | **$6,050.31** |
-| 4 | Ville-Marie - Le Sud-Ouest - Île-des-Soeurs | $1,102,250 | 183 | **$6,023.12** |
-| 5 | Vancouver Kingsway | $712,915 | 120 | **$5,941.96** |
-| 6 | Vancouver-Centre | $666,249 | 115 | **$5,793.47** |
-| 7 | Kitchener-Centre | $659,702 | 114 | **$5,787.74** |
-| 8 | Fort Saskatchewan | $553,339 | 96 | **$5,763.95** |
-| 9 | Outremont | $655,536 | 116 | **$5,651.17** |
-| 10 | Toronto-Centre | $668,932 | 119 | **$5,621.28** |
+![Least Bang for Your Bucks](plots/fig2.png)
+
+| Rank | Constituency | Cost Per Job |
+|------|-------------|-------------|
+| 1 | Oakville-Nord - Burlington | **$6,646** |
+| 2 | St. Catharines | **$6,061** |
+| 3 | Surrey - Newton | **$6,050** |
+| 4 | Hamilton Mountain | **$6,023** |
+| 5 | Vancouver Kingsway | **$5,942** |
+| 6 | North Vancouver | **$5,768** |
+| 7 | Sherwood Park - Fort Saskatchewan | **$5,765** |
+| 8 | Etobicoke-Centre | **$5,657** |
+| 9 | Kitchener-Centre | **$5,644** |
+| 10 | Elmwood - Transcona | **$5,599** |
 
 ### Most Cost-Efficient (Lowest Cost Per Job)
 
-| Rank | Constituency | Amount Paid | Jobs Created | Cost Per Job |
-|------|-------------|-------------|--------------|-------------|
-| 1 | Lakeland | $489,677 | 169 | **$2,897.85** |
-| 2 | Battle River - Crowfoot | $499,004 | 170 | **$2,935.32** |
-| 3 | Yorkton - Melville | $494,422 | 167 | **$2,960.61** |
-| 4 | Cypress Hills - Grasslands | $482,417 | 163 | **$2,960.23** |
-| 5 | Moose Jaw - Lake Centre - Lanigan | $509,552 | 167 | **$3,051.21** |
-| 6 | Prince Albert | $554,765 | 183 | **$3,032.05** |
-| 7 | Lethbridge | $510,426 | 168 | **$3,038.25** |
-| 8 | Desnethé - Missinippi - Rivière Churchill | $508,178 | 167 | **$3,043.60** |
-| 9 | Carleton | $740,873 | 241 | **$3,074.16** |
-| 10 | Malpeque | $529,391 | 170 | **$3,114.06** |
+![Best Bang for Your Bucks](plots/fig3.png)
+
+| Rank | Constituency | Cost Per Job |
+|------|-------------|-------------|
+| 1 | Lakeland | **$2,898** |
+| 2 | Sturgeon River - Parkland | **$2,935** |
+| 3 | Sentier Carlton - Eagle Creek | **$2,968** |
+| 4 | Regina - Qu'Appelle | **$3,015** |
+| 5 | Pickering - Uxbridge | **$3,039** |
+| 6 | Battlefords - Lloydminster | **$3,045** |
+| 7 | Desnethé - Missinippi - Rivière Churchill | **$3,067** |
+| 8 | Carleton | **$3,074** |
+| 9 | Malpeque | **$3,108** |
+| 10 | Renfrew - Nipissing - Pembroke | **$3,119** |
 
 ---
 
@@ -61,7 +67,7 @@ The side-by-side comparison below highlights the **least cost-efficient** (left,
 
 A direct comparison of the two largest Alberta cities across total funding, jobs created, and cost efficiency.
 
-![Edmonton vs Calgary Comparison](plots/edmonton_vs_calgary.png)
+![Edmonton vs Calgary Comparison](plots/fig5.png)
 
 ### Edmonton
 
@@ -91,7 +97,9 @@ A direct comparison of the two largest Alberta cities across total funding, jobs
 
 Each dot represents a single constituency. The vertical position shows its cost per job, making it easy to spot patterns and outliers within each city.
 
-![City Scatterplot](plots/city_scatterplot.png)
+![City Scatterplot](plots/fig1.png)
+
+> 🔵 Calgary clusters at the bottom ($3,200–$4,900), 🔴 Vancouver clusters at the top ($4,600–$5,900), and ⚪ Edmonton sits in between ($3,200–$4,700).
 
 ---
 
@@ -111,7 +119,7 @@ Each dot represents a single constituency. The vertical position shows its cost 
 2. **Vancouver is the least cost-efficient** — $5,291 per job, 28% above the national average
 3. **Edmonton and Calgary** both beat the national average, with Calgary edging ahead
 4. **Toronto** falls in the middle, slightly above the national average
-5. The **national spread** ranges from ~$2,898 to ~$6,646 — a **$3,748 gap** between most and least efficient
+5. The **national spread** ranges from ~$2,898 to ~$6,646 — a **$3,748 gap** between most and least efficient constituencies
 
 ---
 
